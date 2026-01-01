@@ -25,7 +25,7 @@
       "items": [
         {
           "id": 1,
-          "img": "portfolio/images/pictures/profile.jpeg",
+          "img": "images/pictures/profile.jpeg",
           "faIcon": "fa-solid fa-chart-line",
           "faIconColors": {
             "bg": "",
