@@ -1,0 +1,22 @@
+{
+    "name": "Maulik Raval",
+    "profilePictureUrl": "images/pictures/profile.jpeg",
+    "resumePdfUrl": "images/pictures/Maulik Raval Resume.pdf",
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_work",
+    "locales": {
+        "en": {
+            "localized_name": "Maulik Raval",
+            "localized_name_stylized": "<strong>Maulik {{Raval}}</strong>",
+            "status_message_available_for_work": "Actively seeking data analyst opportunities in Canada",
+            "roles": [
+                "Data Analyst",
+                "Business Analyst",
+                "Data Scientist"
+            ],
+            "name_pronunciation_ipa": "Maulik Raval",
+            "name_pronunciation_audio_url": ""
+        }
+    }
+}

@@ -1,0 +1,299 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Projects",
+                "title_short_nav": "Projects",
+                "title_long_prefix": "My",
+                "title_long": "{{Portfolio}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "title": "Featured {{Projects}}"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {
+                        "bg": "#3498DB",
+                        "bgLight": "#2980B9",
+                        "fill": "#ffffff",
+                        "fillLight": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/cantor08/HR-ANALYTICS",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HR Workforce Analytics Dashboard",
+                            "text": "Interactive Tableau dashboard providing 360° workforce analytics covering hiring trends, demographics, income analysis, and employee directory. Enables HR teams to identify pay gaps, optimize hiring strategies, and make data-driven decisions on retention, compensation, and diversity initiatives.",
+                            "tags": ["Business Intelligence", "Tableau", "HR Analytics", "Data Visualization", "Workforce Planning"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-car-crash",
+                    "faIconColors": {
+                        "bg": "#E74C3C",
+                        "bgLight": "#C0392B",
+                        "fill": "#ffffff",
+                        "fillLight": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/cantor08/Traffic-Accident-Severity-Prediction-",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Big Data Analytics for Traffic Safety",
+                            "text": "Scalable cloud-based predictive analytics pipeline processing 7.7M accident records across 49 U.S. states. Built ETL workflows using AWS Glue & PySpark, developed XGBoost model (RMSE ~796), and created QuickSight dashboards enabling government agencies to forecast accident severity and implement proactive safety measures.",
+                            "tags": ["AWS", "Big Data", "XGBoost", "PySpark", "ETL", "Cloud Computing", "Business Intelligence"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-home",
+                    "faIconColors": {
+                        "bg": "#27AE60",
+                        "bgLight": "#229954",
+                        "fill": "#ffffff",
+                        "fillLight": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/maulik-data-science/House-Price-Prediction",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Real Estate Market Analysis System",
+                            "text": "Machine learning-based business intelligence system for real estate valuation using ensemble models (Random Forest, LightGBM). Performed comprehensive EDA, engineered location-based features, and deployed Flask web application with MySQL integration enabling data-driven investment decisions with 92% accuracy.",
+                            "tags": ["Machine Learning", "Flask", "MySQL", "Business Analysis", "Real Estate Analytics", "Predictive Modeling"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-bitcoin",
+                    "faIconColors": {
+                        "bg": "#F7931A",
+                        "bgLight": "#D97706",
+                        "fill": "#ffffff",
+                        "fillLight": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/cantor08/CRU",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Financial Market Analytics: Cryptocurrency Trading",
+                            "text": "Built end-to-end quantitative trading analytics using Continuous Recurrent Units (CRU) for BTC/USDT high-frequency data. Engineered data pipeline with timestamp alignment and inter-trade gap computation. Achieved superior F1-score and AUC vs GRU, demonstrating financial market microstructure analysis capabilities.",
+                            "tags": ["Deep Learning", "Financial Analytics", "Time Series", "PyTorch", "Cryptocurrency", "Quantitative Analysis"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-heart-pulse",
+                    "faIconColors": {
+                        "bg": "#E91E63",
+                        "bgLight": "#C2185B",
+                        "fill": "#ffffff",
+                        "fillLight": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/cantor08/Early-Stage-Diabetes-Risk-Assessment-Using-Balanced-Classification-Models.git",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Healthcare Analytics: Diabetes Risk Prediction",
+                            "text": "Developed predictive healthcare analytics system addressing class imbalance with SMOTE. Trained classification models (Logistic Regression, SVM) with feature importance analysis identifying BMI, blood pressure, and lifestyle as key risk factors. Built interactive assessment tool enabling early intervention for at-risk populations.",
+                            "tags": ["Healthcare Analytics", "Classification", "SMOTE", "SVM", "Predictive Modeling", "Feature Engineering"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {
+                        "bg": "#9B59B6",
+                        "bgLight": "#8E44AD",
+                        "fill": "#ffffff",
+                        "fillLight": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/cantor08/Feasibility-Study-on-The-Triadic-Mind-Framwork",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Decision Analysis Framework for Mental Health",
+                            "text": "Synthesized 50+ peer-reviewed research papers to develop feasibility-driven decision analysis framework. Introduced Triadic Mind Framework using Three-Way Decision theory (accept/reject/defer) improving interpretability in ambiguous data scenarios. Shifted focus from accuracy-only to business-focused feasibility and stakeholder value.",
+                            "tags": ["Research", "Decision Analysis", "Three-Way Decision", "Business Strategy", "Mental Health", "Data Science"]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-solid fa-newspaper",
+                    "faIconColors": {
+                        "bg": "#F39C12",
+                        "bgLight": "#D68910",
+                        "fill": "#ffffff",
+                        "fillLight": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/cantor08/fake-news-detection",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Media Analytics: Fake News Detection System",
+                            "text": "Developed end-to-end NLP analytics system combining LSTM and CNN models for content verification. Implemented TF-IDF vectorization with comprehensive preprocessing and deployed Flask web application enabling real-time classification. Achieved high precision/recall supporting media companies in content moderation decisions.",
+                            "tags": ["NLP", "Text Analytics", "LSTM", "CNN", "Flask", "Deep Learning", "Business Intelligence"]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-solid fa-person-running",
+                    "faIconColors": {
+                        "bg": "#16A085",
+                        "bgLight": "#138D75",
+                        "fill": "#ffffff",
+                        "fillLight": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/cantor08/Yoga-Pose-Detection",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Fitness & Wellness Business Analytics",
+                            "text": "Built AI-powered computer vision analytics for yoga posture analysis using TensorFlow MoveNet and MediaPipe. Trained deep learning model on Yoga-82 dataset providing real-time alignment feedback. Deployed scalable solution supporting fitness businesses in delivering data-driven personalized wellness services.",
+                            "tags": ["Computer Vision", "TensorFlow", "Business Analytics", "Pose Estimation", "Deep Learning", "Product Development"]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "img": "",
+                    "faIcon": "fa-solid fa-book",
+                    "faIconColors": {
+                        "bg": "#795548",
+                        "bgLight": "#5D4037",
+                        "fill": "#ffffff",
+                        "fillLight": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/cantor08",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Library Operations Management System",
+                            "text": "Developed full-stack web application using Django framework for library operations automation. Implemented user authentication, ORM-based database management, and optimized CRUD operations streamlining book inventory, user management, and transaction workflows. Improved operational efficiency by 40% through process automation.",
+                            "tags": ["Django", "Python", "Full-Stack", "Business Process Automation", "Database Management", "Web Development"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

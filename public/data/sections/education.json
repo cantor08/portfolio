@@ -1,0 +1,89 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Education",
+        "title_short_nav": "Education",
+        "title_long_prefix": "My academic",
+        "title_long": "Education Background"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleTimeline",
+      "locales": {
+        "en": {
+          "title": "Academic Background"
+        }
+      },
+      "settings": {
+        "order_items_by": "dateStart.year",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/certifications/uofr.png",
+          "faIcon": "fa-solid fa-graduation-cap",
+          "faIconColors": {
+            "bg": "#006341",
+            "bgLight": "#006341",
+            "fill": "#FFFFFF",
+            "fillLight": "#FFFFFF"
+          },
+          "dateStart": { "year": 2024, "month": 9 },
+          "dateEnd": { "now": true },
+          "locales": {
+            "en": {
+              "title": "Master of Science (MSc) in Computer Science – Data Science",
+              "province": "Saskatchewan",
+              "country": "Canada",
+              "institution": "University of Regina",
+              "text": "Graduate program focused on data science, machine learning, and computational problem-solving with applications in business analytics and data-driven decision-making.",
+              "list": [
+                "Grade: 88.83% (Distinction) – Master’s program",
+                "Core Focus: statistical modeling, predictive analytics, and business intelligence",
+                "Advanced Topics: machine learning, natural language processing (NLP), cloud computing, and data pipelines",
+                "Technical Stack: Python, SQL, Power BI, Tableau, and data visualization/dashboarding",
+                "Professional Skills: business statistics, project management, professional communication, presentation skills, and DEI implementation"
+              ],
+              "tags": ["Data Science", "Machine Learning", "Business Analytics", "Cloud Computing", "Statistics", "Python"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "images/pictures/images (1).jpeg",
+          "faIcon": "fa-solid fa-laptop-code",
+          "faIconColors": {
+            "bg": "#DC2626",
+            "bgLight": "#DC2626",
+            "fill": "#FFFFFF",
+            "fillLight": "#FFFFFF"
+          },
+          "dateStart": { "year": 2020, "month": 9 },
+          "dateEnd": { "year": 2024, "month": 6 },
+          "locales": {
+            "en": {
+              "title": "Bachelor of Engineering (BE) in Computer Science",
+              "province": "Gujarat",
+              "country": "India",
+              "institution": "Gujarat Technological University (GTU)",
+              "text": "Undergraduate program in computer science emphasizing programming, databases, software engineering, and data-driven systems development.",
+              "list": [
+                "Grade: 89% (First Class with Distinction) – Bachelor’s degree",
+                "Core Coursework: algorithms & data structures, DBMS, software engineering, operating systems, and computer networks",
+                "Programming Languages: Python, C/C++, Java, SQL, and web development fundamentals",
+                "Foundational Skills: data analysis, project management, professional communication, and cloud computing basics",
+                "Capstone & Applied Projects: machine learning systems, web-based applications, and data analysis tools"
+              ],
+              "tags": ["Computer Science", "Programming", "Databases", "Software Engineering", "Data Analysis", "Python"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

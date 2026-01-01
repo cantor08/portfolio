@@ -1,0 +1,411 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Skills",
+        "title_short_nav": "Skills",
+        "title_long_prefix": "My technical",
+        "title_long": "{{Skills}} & Expertise"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": {
+          "title": "{{Data Analysis}} & Visualization"
+        }
+      },
+      "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "date.year",
+        "order_items_sort": "desc",
+        "round_icons": false
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-brands fa-python",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#3776AB",
+            "fillLight": "#3776AB"
+          },
+          "date": {
+            "year": 2022,
+            "month": 1
+          },
+          "percentage": 0,
+          "locales": {
+            "en": {
+              "title": "Python",
+              "text": "Pandas, NumPy, Matplotlib, Seaborn, Jupyter for end-to-end data analysis, EDA, and automation.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#00758F",
+            "fillLight": "#00758F"
+          },
+          "date": {
+            "year": 2021,
+            "month": 6
+          },
+          "percentage": 0,
+          "locales": {
+            "en": {
+              "title": "SQL",
+              "text": "MySQL, PostgreSQL, complex joins, CTEs, window functions, optimization, and reporting queries.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-chart-bar",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#F2C811",
+            "fillLight": "#B8960D"
+          },
+          "date": {
+            "year": 2022,
+            "month": 8
+          },
+          "percentage": 0,
+          "locales": {
+            "en": {
+              "title": "Power BI",
+              "text": "Data modeling, DAX, Power Query, row-level security, interactive dashboards, and storytelling.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-solid fa-chart-line",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#E97627",
+            "fillLight": "#E97627"
+          },
+          "date": {
+            "year": 2023,
+            "month": 2
+          },
+          "percentage": 0,
+          "locales": {
+            "en": {
+              "title": "Tableau",
+              "text": "Dashboards, calculated fields, parameters, LOD expressions, and data storytelling for stakeholders.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-solid fa-file-excel",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#217346",
+            "fillLight": "#217346"
+          },
+          "date": {
+            "year": 2020,
+            "month": 3
+          },
+          "percentage": 0,
+          "locales": {
+            "en": {
+              "title": "Excel",
+              "text": "Advanced formulas, pivot tables, Power Query, VBA macros, and data analysis tools.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 6,
+          "img": "",
+          "faIcon": "fa-solid fa-cloud",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#276DC3",
+            "fillLight": "#276DC3"
+          },
+          "date": {
+            "year": 2023,
+            "month": 5
+          },
+          "percentage": 0,
+          "locales": {
+            "en": {
+              "title": "Big Data & Cloud",
+              "text": "AWS, S3, EC2, basic Spark concepts, data storage, and scalable analytics workflows.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 7,
+          "img": "",
+          "faIcon": "fa-solid fa-brain",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#FF6F00",
+            "fillLight": "#FF6F00"
+          },
+          "date": {
+            "year": 2023,
+            "month": 9
+          },
+          "percentage": 0,
+          "locales": {
+            "en": {
+              "title": "Machine Learning",
+              "text": "Scikit-learn, feature engineering, model selection, classification, regression, and evaluation metrics.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 8,
+          "img": "",
+          "faIcon": "fa-solid fa-diagram-project",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#8E44AD",
+            "fillLight": "#8E44AD"
+          },
+          "date": {
+            "year": 2024,
+            "month": 3
+          },
+          "percentage": 0,
+          "locales": {
+            "en": {
+              "title": "Data Pipelines",
+              "text": "ETL workflows, data cleaning, reproducible analysis, and documentation for analytics projects.",
+              "level": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "component": "ArticleStack",
+      "locales": {
+        "en": {
+          "title": "Tech {{Stack}}"
+        }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-brands fa-python",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#3776AB",
+            "fillLight": "#3776AB"
+          },
+          "date": {
+            "year": null,
+            "month": null
+          },
+          "locales": {
+            "en": {
+              "title": "Python · Pandas · NumPy · Jupyter"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#00758F",
+            "fillLight": "#00758F"
+          },
+          "date": {
+            "year": null,
+            "month": null
+          },
+          "locales": {
+            "en": {
+              "title": "SQL · MySQL · PostgreSQL"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-chart-simple",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#F2C811",
+            "fillLight": "#B8960D"
+          },
+          "date": {
+            "year": null,
+            "month": null
+          },
+          "locales": {
+            "en": {
+              "title": "Power BI · Tableau · Excel"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-solid fa-brain",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#FF6F00",
+            "fillLight": "#FF6F00"
+          },
+          "date": {
+            "year": null,
+            "month": null
+          },
+          "locales": {
+            "en": {
+              "title": "Scikit-learn · ML · Statistics"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-brands fa-aws",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#FF9900",
+            "fillLight": "#FF9900"
+          },
+          "date": {
+            "year": null,
+            "month": null
+          },
+          "locales": {
+            "en": {
+              "title": "AWS · Cloud · S3 · EC2"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "img": "",
+          "faIcon": "fa-brands fa-docker",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#2496ED",
+            "fillLight": "#2496ED"
+          },
+          "date": {
+            "year": null,
+            "month": null
+          },
+          "locales": {
+            "en": {
+              "title": "Docker · Containers"
+            }
+          }
+        },
+        {
+          "id": 7,
+          "img": "",
+          "faIcon": "fa-brands fa-github",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#FFFFFF",
+            "fillLight": "#181717"
+          },
+          "date": {
+            "year": null,
+            "month": null
+          },
+          "locales": {
+            "en": {
+              "title": "Git · GitHub · Version Control"
+            }
+          }
+        },
+        {
+          "id": 8,
+          "img": "",
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#61DAFB",
+            "fillLight": "#00A7CF"
+          },
+          "date": {
+            "year": null,
+            "month": null
+          },
+          "locales": {
+            "en": {
+              "title": "Jupyter Notebooks · VS Code"
+            }
+          }
+        },
+        {
+          "id": 9,
+          "img": "",
+          "faIcon": "fa-solid fa-cloud",
+          "faIconColors": {
+            "bg": "",
+            "bgLight": "",
+            "fill": "#276DC3",
+            "fillLight": "#276DC3"
+          },
+          "date": {
+            "year": null,
+            "month": null
+          },
+          "locales": {
+            "en": {
+              "title": "Big Data · Cloud Computing"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

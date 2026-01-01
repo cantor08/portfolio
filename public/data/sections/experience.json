@@ -1,0 +1,169 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Experience",
+        "title_short_nav": "Experience",
+        "title_long_prefix": "Summary of my",
+        "title_long": "Work Experience"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleTimeline",
+      "locales": {
+        "en": {
+          "title": "Professional Experience"
+        }
+      },
+      "settings": {
+        "order_items_by": "dateStart.year",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-solid fa-chalkboard-teacher",
+          "faIconColors": {
+            "bg": "#006341",
+            "bgLight": "#006341",
+            "fill": "#FFFFFF",
+            "fillLight": "#FFFFFF"
+          },
+          "dateStart": { "year": 2025, "month": 9 },
+          "dateEnd": { "now": true },
+          "locales": {
+            "en": {
+              "title": "Teaching Assistant – Calculus & Statistics",
+              "province": "Saskatchewan",
+              "country": "Canada",
+              "institution": "University of Regina",
+              "text": "Supported undergraduate students in calculus and business statistics by translating mathematical theory into applied, data-driven examples relevant to analytics and machine learning.",
+              "list": [
+                "Conducted weekly tutorials for calculus and statistics courses",
+                "Explained probability, hypothesis testing, and optimization concepts using real datasets",
+                "Provided one-on-one academic support and constructive grading feedback",
+                "Collaborated with faculty to improve student engagement and learning outcomes"
+              ],
+              "tags": ["Statistics", "Teaching", "Communication", "Data Literacy"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "faIcon": "fa-solid fa-user-graduate",
+          "faIconColors": {
+            "bg": "#006341",
+            "bgLight": "#006341",
+            "fill": "#FFFFFF",
+            "fillLight": "#FFFFFF"
+          },
+          "dateStart": { "year": 2025, "month": 3 },
+          "dateEnd": { "now": true },
+          "locales": {
+            "en": {
+              "title": "Data Science Tutor & Technical Mentor",
+              "province": "Saskatchewan",
+              "country": "Canada",
+              "institution": "University of Regina – Student Success Centre",
+              "text": "Mentored students in core computer science and data science foundations, bridging academic concepts with practical, industry-relevant workflows.",
+              "list": [
+                "Tutored Python, data structures, algorithms, linear algebra, and calculus",
+                "Guided students in data manipulation, debugging, and problem decomposition",
+                "Helped students apply theory to projects and interview-style problems",
+                "Improved student confidence in technical coursework and assessments"
+              ],
+              "tags": ["Python", "Mentorship", "Data Science", "Algorithms"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-solid fa-chart-line",
+          "faIconColors": {
+            "bg": "#4A90E2",
+            "bgLight": "#4A90E2",
+            "fill": "#FFFFFF",
+            "fillLight": "#FFFFFF"
+          },
+          "dateStart": { "year": 2024, "month": 1 },
+          "dateEnd": { "year": 2024, "month": 9 },
+          "locales": {
+            "en": {
+              "title": "Data Scientist Intern",
+              "province": "Gujarat",
+              "country": "India",
+              "institution": "Enlighten Infosystems",
+              "text": "Built a machine learning–driven house price prediction system to support data-informed real estate valuation and decision-making.",
+              "list": [
+                "Developed regression and ensemble ML models for property price prediction",
+                "Performed feature engineering and geospatial analysis on real estate data",
+                "Automated preprocessing pipelines using Python and Pandas",
+                "Created Power BI dashboards to communicate insights to stakeholders"
+              ],
+              "tags": ["Machine Learning", "Python", "Power BI", "SQL", "Analytics"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "faIcon": "fa-brands fa-python",
+          "faIconColors": {
+            "bg": "#3776AB",
+            "bgLight": "#3776AB",
+            "fill": "#FFD43B",
+            "fillLight": "#FFD43B"
+          },
+          "dateStart": { "year": 2023, "month": 7 },
+          "dateEnd": { "year": 2024, "month": 1 },
+          "locales": {
+            "en": {
+              "title": "Python Developer Intern",
+              "province": "Gujarat",
+              "country": "India",
+              "institution": "BrainyBeam Technologies Pvt. Ltd.",
+              "text": "Developed and optimized a web-based healthcare management system to improve operational efficiency and data accuracy.",
+              "list": [
+                "Built backend features using Python, Django, and PostgreSQL",
+                "Designed REST APIs for inventory tracking and notifications",
+                "Implemented authentication, access control, and data security",
+                "Improved system performance through refactoring and testing"
+              ],
+              "tags": ["Python", "Django", "REST APIs", "PostgreSQL"]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "faIcon": "fa-solid fa-tasks",
+          "faIconColors": {
+            "bg": "#E94E77",
+            "bgLight": "#E94E77",
+            "fill": "#FFFFFF",
+            "fillLight": "#FFFFFF"
+          },
+          "dateStart": { "year": 2023, "month": 6 },
+          "dateEnd": { "year": 2023, "month": 7 },
+          "locales": {
+            "en": {
+              "title": "Project Management Intern",
+              "province": "Remote",
+              "country": "India",
+              "institution": "InternPe",
+              "text": "Supported project coordination and documentation for cross-functional teams in a structured, deadline-driven environment.",
+              "list": [
+                "Maintained project documentation and progress reports",
+                "Assisted in task coordination and stakeholder communication",
+                "Supported agile workflows and sprint planning",
+                "Ensured alignment between technical tasks and project goals"
+              ],
+              "tags": ["Project Management", "Agile", "Communication"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
